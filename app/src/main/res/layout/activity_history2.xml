@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HistoryActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Faire Warning"
+            android:background="#b0203a"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:id="@+id/image_location"
+            android:textAlignment="center"
+            android:paddingBottom="10dp"
+            android:gravity="center_horizontal"
+            android:layout_margin="15dp"
+            >
+
+        </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Our goal is to anticipate the burning area from Forest fires in the northeastern region of Portugal. Based on the spatial, temporal and weather variables in which the fire is monitored."
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description for data"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/des"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        >
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The majority of wildfires do not cover a large area, and most of the affected area is less than 50 hectares of land.
+ There are 4 abnormal cases in the area"
+
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        >
+
+    </TextView>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/area"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="It is interesting to see that abnormally high number of the forest fires occur in the month of August and September.
+In the case of day, the days Friday to Monday have higher proportion of cases."
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            >
+
+        </TextView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/count1"
+            android:layout_marginTop="10dp"
+            >
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/count2"
+            android:layout_marginTop="10dp"
+            >
+        </ImageView>
+    </LinearLayout>
+</ScrollView>

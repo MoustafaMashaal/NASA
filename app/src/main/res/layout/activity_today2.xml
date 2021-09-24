@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TodayActivity2"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Today"
+        android:background="#b0203a"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:id="@+id/image_location"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        >
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Wind"
+            android:textStyle="bold"
+            android:textColor="#b0203a"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            >
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Wind Percentage"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/edit_border"
+            android:id="@+id/wind_percentage"
+            android:inputType="number"
+            >
+
+        </EditText>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Temp"
+            android:textStyle="bold"
+            android:textColor="#b0203a"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            >
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Temperature Percentage"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/edit_border"
+            android:id="@+id/temp_percentage"
+            android:inputType="number"
+            >
+
+        </EditText>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Humidity"
+            android:textStyle="bold"
+            android:textColor="#b0203a"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            >
+        </TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Humidity"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/edit_border"
+            android:inputType="number"
+            android:id="@+id/rain_percentage"
+            >
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#b0203a"
+        android:text="Check"
+        android:textColor="@color/white"
+        android:layout_margin="20dp"
+
+        android:textStyle="bold"
+        android:id="@+id/check"
+        >
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Warning.."
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/warning"
+        android:textColor="#b0203a"
+        android:backgroundTint="#C0C0C0"
+        android:background="#C0C0C0"
+        android:visibility="gone"
+
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Near Risk.."
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/nearRisk"
+        android:textColor="#FFFF33"
+        android:backgroundTint="#C0C0C0"
+        android:background="#C0C0C0"
+        android:visibility="gone"
+
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Safe.."
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/safe"
+        android:textColor="#009900"
+        android:backgroundTint="#C0C0C0"
+        android:background="#C0C0C0"
+        android:visibility="gone"
+
+        >
+    </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call FireFighting"
+        android:textColor="@color/white"
+        android:background="#b0203a"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:id="@+id/call"
+        >
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Active wildfires"
+        android:textColor="@color/white"
+        android:background="#b0203a"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_margin="20dp"
+        android:id="@+id/wildfire"
+        >
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Drought Map"
+        android:textColor="@color/white"
+        android:background="#b0203a"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_margin="20dp"
+        android:id="@+id/droughtMap"
+        >
+    </Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Surface Temp Model"
+        android:textColor="@color/white"
+        android:background="#b0203a"
+        android:layout_gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_margin="20dp"
+        android:id="@+id/surface"
+        >
+    </Button>
+
+    </LinearLayout>
+</ScrollView>

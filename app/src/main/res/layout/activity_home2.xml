@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".HomeActivity2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="Fire Safe"
+            android:background="#b0203a"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:id="@+id/image_location"
+            android:textAlignment="center"
+             android:paddingBottom="10dp"
+            android:gravity="center_horizontal"
+            android:layout_margin="15dp"
+            >
+
+        </TextView>
+
+
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/location_on_24"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:id="@+id/image_location1"
+            >
+
+        </ImageView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/history"
+            android:layout_marginTop="50dp"
+            android:background="#b0203a"
+            android:text="History"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            >
+
+        </Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/today"
+            android:layout_marginTop="20dp"
+            android:background="#b0203a"
+            android:text="Today"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            >
+
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/exten"
+            android:layout_marginTop="20dp"
+            android:background="#b0203a"
+            android:text="Expectaion"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            >
+
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emper"
+            android:layout_marginTop="20dp"
+            android:background="#b0203a"
+            android:text="Empergency"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            >
+
+        </Button>
+
+
+    </LinearLayout>
+</ScrollView>

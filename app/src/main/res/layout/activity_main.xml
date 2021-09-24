@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/image_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#b0203a"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Fire Safe"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="welcome"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:textColor="#b0203a"
+        android:textSize="30dp"
+
+        >
+
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter User Name"
+        android:id="@+id/user_name"
+        android:padding="10dp"
+        android:background="@drawable/edit_border"
+        >
+    </EditText>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="50dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Location"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        >
+
+    </TextView>
+    <Spinner
+        android:id="@+id/spinner1"
+
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+       android:layout_gravity="end"
+
+
+
+        />
+
+</LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="70dp"
+        android:padding="20dp"
+        android:text="Start"
+        android:textColor="@color/white"
+        android:background="#b0203a"
+        android:textStyle="bold"
+        android:id="@+id/strat"
+        >
+
+    </Button>
+
+</LinearLayout>
